@@ -1,0 +1,16 @@
+.wrapper {
+    border: 1px solid black;
+    background-color: orange;
+    width: 725px;
+    height: 100px; 
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+    background-color: green;
+    padding-left: 15px;
+    width: 100px;
+    height: 50px;
+}

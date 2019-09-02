@@ -1,0 +1,8 @@
+Как можно изменить размер шрифта элемента при помощи JS?
+
+Чтобы добраться до стилей и поменять их, к переменной нужно дописать слово style.
+object.style.fontSize = "value|initial|inherit"
+
+пример: box.style.fontSize = "25px";	
+
+https://www.w3schools.com/jsref/prop_style_fontsize.asp
