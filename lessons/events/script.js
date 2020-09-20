@@ -1,6 +1,6 @@
-let btn = document.querySelectorAll('button'),
-    wrap = document.querySelector('.wrapper'),
-    link = document.querySelector('a');
+let btn = document.querySelectorAll("button"),
+  wrap = document.querySelector(".wrapper"),
+  link = document.querySelector("a");
 
 // btn[0].onclick = function() {
 //     alert("Вы нажали первую кнопку");
@@ -11,11 +11,9 @@ let btn = document.querySelectorAll('button'),
 //     // alert("Вы опять нажали первую кнопку");
 // });
 
-
 // btn[0].addEventListener('mouseenter', function() {
 //     alert("Вы навели на первую кнопку");
 // });
-
 
 // btn[0].addEventListener('click', function (event) {
 //     //     console.log(event);
@@ -28,14 +26,15 @@ let btn = document.querySelectorAll('button'),
 //     console.log("Произошло событие: " + event.type + " на элементе " + event.target);
 // });
 
-link.addEventListener('click', function(event){
-    event.preventDefault();
-    console.log("Произошло событие: " + event.type + " на элементе " + event.target);
+link.addEventListener("click", function (event) {
+  event.preventDefault();
+  console.log(
+    "Произошло событие: " + event.type + " на элементе " + event.target
+  );
 });
 
-
-btn.forEach(function(item) {
-    item.addEventListener('mouseleave', function() {
-        console.log("Вышли!");
-    });
+btn.forEach(function (item) {
+  item.addEventListener("mouseleave", function () {
+    console.log("Вышли!");
+  });
 });

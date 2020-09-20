@@ -9,18 +9,15 @@
 // // showFirstMessage("pogchamp");
 // // console.log(Num);
 
-
 // // let calc = function(a,b){
 // //      return(a+b);
 // // }
-
 
 // let calc = (a,b) => a+b
 
 // console.log(calc(3,4));
 
 // console.log(calc(8,7));
-
 
 // function returnVar(){
 //     let num = 50;
@@ -29,7 +26,6 @@
 
 // let anotherNum = returnVar();
 // console.log(anotherNum);
-
 
 // let str = "test";
 // console.log(str.length);
@@ -45,26 +41,22 @@
 // console.log(parseInt(twelve));
 // console.log(parseFloat(twelve));
 
-
-
 // //1) В Js существует 7 типов данных: число, строка, булевое значение(true,false), обьект, undefined, null, symbol.
 // //2) Для того что бы, вывести информацию в консоль существует команда console.log().
-// // 3) Функция оператора || "или" заключаеться в том что одно из условий должно быть верно, && "и" оба условия 
+// // 3) Функция оператора || "или" заключаеться в том что одно из условий должно быть верно, && "и" оба условия
 // // должны быть верны.
-
 
 //                 // Цыкл while
 //  /*
 //     var i = 0;
 //     while (i < 2) {
-//        i++;     
+//        i++;
 //        let  a = prompt("Введите обязательную статью расходов в этом месяце", '');
 //        b = prompt("Во сколько обойдеться", '');
-//  } 
+//  }
 //  */
 
-
-//                 // Цыкл do while 
+//                 // Цыкл do while
 //  /*
 //  i = 0;
 //  do {
@@ -74,7 +66,7 @@
 //  } while (i < 2);
 //  */
 
-                        //Callback
+//Callback
 /*
 function first() {
     //Что то делаем 
@@ -104,11 +96,8 @@ function done() {                       // Callback функция вне осн
 learnJS("Javascript", done);
 */
 
-
-
-                                //Object
+//Object
 // let obj = new Object();    не лучший вариант для создания обьектов
-
 
 /*
 let options = {
@@ -137,9 +126,7 @@ for (let key in options) {
 console.log(Object.keys(options).length);
 */
 
-
-
-                            // Array
+// Array
 // let arr = ["first", 2, 3, "four", 5];
 
 // arr.forEach(function(item, i, mass) {
@@ -148,14 +135,12 @@ console.log(Object.keys(options).length);
 
 // console.log(arr);
 
-
-                // Перебор значений массива
+// Перебор значений массива
 // let mass = [1, 3, 4, 6, 7];
 
 // for (let key of  mass) {
 //     console.log(key);
 // }
-
 
 // arr[99] = 99;
 // console.log(arr.length );
@@ -169,60 +154,55 @@ console.log(Object.keys(options).length);
 // arr.shift();         убираем первый элемент
 // arr.unshift("1");    добавляем элемент в начало
 
-
-                    // Разбиваем строку с элементами массива
+// Разбиваем строку с элементами массива
 // let ans = prompt("", ""),
 //   arr = [];
 
 //  arr = ans.split(',');
 //  console.log(arr);
 
-
-                    // Записываем элементы массива в одну строчку с разделителем
+// Записываем элементы массива в одну строчку с разделителем
 // let arr = ["awe", "wto", "buta", "pog"],
 //     i = arr.join(', ');
 //     console.log(i);
 
-
-                    // Сортируем числа в массиве по возрастанию с помощью callback функции
+// Сортируем числа в массиве по возрастанию с помощью callback функции
 // let arr = [1,15,4];
 //     i = arr.sort(compareNum);
 // function compareNum(a,b) {
 //     return a-b;
-// } 
+// }
 
 //     console.log(arr);
 
-
-                    // ООП
+// ООП
 let soldier = {
-    health: 400,
-    armor:  100
+  health: 400,
+  armor: 100,
 };
 
 let john = {
-    health: 100 
+  health: 100,
 };
 
 john_proto_ = soldier; //назначаем для обьекта john прототипом обьект soldier, теперь john наследуеться от soldier
 console.log(john);
 console.log(john.armor);
 
-
-					//
+//
 function hello() {
-    console.log("Hello World");
+  console.log("Hello World");
 }
 hello();
 
-function hi(){
-    console.log("Hello World"); 
-} 
+function hi() {
+  console.log("Hello World");
+}
 hi();
 
 let arr = [1, 15, 30, 42];
-    i = arr.sort[compareNum];
+i = arr.sort[compareNum];
 function compareNum() {
-    return a-b;
+  return a - b;
 }
 console.log(arr);
